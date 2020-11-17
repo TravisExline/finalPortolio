@@ -1,3 +1,35 @@
+/* 
+****COLORS**** 
+Charcoal - #373F47
+Red Salsa - #F03A47
+Lavender Web - #D9DBF1
+Carolina Blue - #1B98E0
+Maximum Red - #DD1C1A
+*/
+
 img {
     width: 300px;
 }
+
+/* About / Profile */
+header {
+    background-image: url("../images/spider-background.jpg");
+    color: #edf2f4; 
+}
+
+/* Projects / Portfolio */
+.projects {
+    background: #1B98E0;
+}
+
+/* Work Experience */
+.work {
+    background: #D9DBF1;
+}
+
+/* Education & Certification */
+.education {
+    background: #F03A47;
+}
+
+/* Contact Info / Social Media */
