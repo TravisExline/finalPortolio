@@ -49,7 +49,8 @@ a:hover {
 }
 
 .content-wrapper {
-    width: 1000px;
+    max-width: 1000px;
+    width: 85%;
     margin: 0 auto;
     padding: 75px 0;
 }
@@ -62,6 +63,7 @@ a:hover {
 header {
     background-image: url("../images/spider-background.jpg");
     background-repeat: no-repeat;
+    background-size:cover;
     color: #edf2f4; 
     text-align: center;
 }
@@ -81,12 +83,6 @@ header h2 {
 /* Projects / Portfolio */
 .projects {
     background: rgb(27,152,224, 80%);
-}
-
-.project {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 25px;
 }
 
 .project-link {
@@ -118,15 +114,12 @@ header h2 {
     background: #D9DBF1;
 }
 
-
-.job {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 25px;
-}
-
 .job-descript ul {
     list-style-type: circle;
+}
+
+.job-details h3 ~ p {
+    margin-bottom: -15px;
 }
 
 /* Education & Certification */
@@ -155,4 +148,18 @@ footer .content-wrapper {
 .list-container a {
     text-decoration: none;
     padding: 10px;
+}
+
+@media screen and (min-width:750px) {
+    .job {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 25px;
+    }
+
+    .project {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 25px;
+    }
 }
