@@ -1,11 +1,3 @@
-/* 
-****COLORS**** 
-Charcoal - #373F47
-Red Salsa - #F03A47
-Lavender Web - #D9DBF1
-Carolina Blue - #1B98E0
-Maximum Red - #DD1C1A
-*/
 @font-face {
     font-family: SuperBoom;
     src: url('../fonts/SuperBoom-OVO4P.ttf');
@@ -127,28 +119,22 @@ header h2 {
     background: rgb(240,58,71, 80%);
 }
 
-.school-holder {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 25px;
-}
 
 /* Contact Info / Social Media */
 footer .content-wrapper {
     padding: 50px 0px;
-    text-align: center;
 }
 
 .list-container {
     list-style-type: none;
-    display: flex;
-    justify-content: center;
 }
 
 .list-container a {
     text-decoration: none;
     padding: 10px;
 }
+
+/* Responsive */
 
 @media screen and (min-width:750px) {
     .job {
@@ -161,5 +147,16 @@ footer .content-wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
         column-gap: 25px;
+    }
+
+    .school-holder {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 25px;
+    }
+
+    .list-container {
+        display: flex;
+        justify-content: center;
     }
 }
