@@ -55,6 +55,7 @@ a:hover {
 }
 .content-wrapper h2 {
     text-align: center;
+    margin-bottom: 25px;
 }
 
 /* About / Profile */
@@ -82,12 +83,30 @@ header h2 {
     background: rgb(27,152,224, 80%);
 }
 
+.project {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 25px;
+}
+
 .project-link {
     background: #DD1C1A;
     padding: 5px;
     border-radius: 5px;
     color: black;
     text-decoration: none;
+}
+
+.project-details {
+    margin: 35px auto;
+}
+
+.project-details p {
+    margin-bottom: 40px;
+}
+
+.project-details a {
+    margin-bottom: 15px;
 }
 
 .project-link:hover {
@@ -99,9 +118,26 @@ header h2 {
     background: #D9DBF1;
 }
 
+
+.job {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 25px;
+}
+
+.job-descript ul {
+    list-style-type: circle;
+}
+
 /* Education & Certification */
 .education {
     background: rgb(240,58,71, 80%);
+}
+
+.school-holder {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 25px;
 }
 
 /* Contact Info / Social Media */
