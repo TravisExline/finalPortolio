@@ -53,12 +53,16 @@ a:hover {
     margin: 0 auto;
     padding: 75px 0;
 }
+.content-wrapper h2 {
+    text-align: center;
+}
 
 /* About / Profile */
 header {
     background-image: url("../images/spider-background.jpg");
     background-repeat: no-repeat;
     color: #edf2f4; 
+    text-align: center;
 }
 
 header h1 {
@@ -66,7 +70,6 @@ header h1 {
     letter-spacing: 6.5px;
     font-size: 70px;
     margin-bottom: 0;
-    margin-top: 0;
 }
 
 header h2 {
@@ -104,4 +107,16 @@ header h2 {
 /* Contact Info / Social Media */
 footer .content-wrapper {
     padding: 50px 0px;
+    text-align: center;
+}
+
+.list-container {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.list-container a {
+    text-decoration: none;
+    padding: 10px;
 }
